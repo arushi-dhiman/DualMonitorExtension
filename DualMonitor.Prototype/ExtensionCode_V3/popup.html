@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Popup</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div>
+        <div class="nav">
+            <div class="header">Screen Settings</div>
+
+        <button id="closeButton">X</button>
+        </div>
+        <hr>
+        <p>Automatically move and expand browser window </p>
+        <p>Click and select display box (shows only enabled monitor displays).</p>
+        <div id="container" class="container"></div>
+        <div id="successToaster"></div>
+        <div id="warningToaster"></div>
+        <div id="correctOrderToaster"></div>
+
+        <script src="popup.js"></script>
+
+        <button id="identifyButton" class="button-primary">Identify</button>
+        <button id="clearSettingsButton" class="button-primary">Clear Settings</button>
+        <button id="btnSave">Save</button>
+    </div>
+</body>
+
+</html>
